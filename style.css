@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: lightblue;
+}
+.center{
+    text-align: 600px;
+}
+.container{
+    width: 70%;
+    margin: 0 auto;
+    background-color: rgba(26, 145, 129, 0.781);
+}
+input[type="text"], select, textarea{
+    width: 100%;
+    padding: 20px;
+    border: 3px solid rgb(230, 230, 238);
+    border-radius: 6px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=submit]{
+    background-color: rgb(30, 201, 87);
+    color: honeydew;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type=Submit]:hover{
+background: rgb(0, 100, 22);
+}
+label{
+    color: rgb(235, 15, 15);
+    font-weight: 400;
